@@ -1,0 +1,46 @@
+.button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  font-family: inherit;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+.primary:hover {
+  background-color: var(--color-primary);
+  filter: brightness(0.9);
+}
+
+.secondary {
+  background-color: var(--color-card);
+  color: var(--color-card-foreground);
+  border: 1px solid var(--color-border);
+}
+
+.secondary:hover {
+  background-color: var(--color-muted);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.8rem;
+  color: var(--color-muted-foreground);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 0;
+}
+
+.close:hover {
+  color: var(--color-foreground);
+}

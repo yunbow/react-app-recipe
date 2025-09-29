@@ -1,0 +1,12 @@
+.searchBox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchButton {
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
