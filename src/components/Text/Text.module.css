@@ -1,0 +1,67 @@
+.text {
+  margin: 0;
+  font-family: inherit;
+}
+
+.heading1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary-foreground);
+}
+
+.heading2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--color-foreground);
+}
+
+.heading3 {
+  margin-bottom: 0.8rem;
+  color: var(--color-primary);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-card-foreground);
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: var(--color-muted-foreground);
+}
+
+.description {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: var(--color-accent-foreground);
+  padding: 0.2rem 0.5rem;
+  border-radius: calc(var(--radius) * 2);
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.message {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--color-card);
+  color: var(--color-card-foreground);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  grid-column: 1 / -1;
+}
+
+.noResults {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  color: var(--color-muted-foreground);
+  grid-column: 1 / -1;
+}

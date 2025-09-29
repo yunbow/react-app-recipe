@@ -1,0 +1,41 @@
+.recipeDetails {
+  padding: 2rem;
+}
+
+.recipeDetailsMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-muted-foreground);
+}
+
+.ingredientList {
+  background-color: var(--color-muted);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+}
+
+.ingredientList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredientList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed var(--color-border);
+}
+
+.instructionList {
+  margin-bottom: 1.5rem;
+}
+
+.instructionList ol {
+  padding-left: 1.5rem;
+}
+
+.instructionList li {
+  margin-bottom: 1rem;
+}

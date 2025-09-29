@@ -1,0 +1,28 @@
+.recipeCard {
+  background-color: var(--color-card);
+  color: var(--color-card-foreground);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.recipeCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.recipeInfo {
+  padding: 1rem;
+}
+
+.recipeMeta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.recipeTags {
+  margin-top: 0.5rem;
+}
